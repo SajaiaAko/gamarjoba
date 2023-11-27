@@ -1,19 +1,24 @@
 import React, { useState, useEffect } from 'react';
-import data from './data.json'; // Adjust the path based on your folder structure
 
 function App() {
-  const [jsonData, setJsonData] = useState([]);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
-    // Use the imported 'data' directly
-    setJsonData(data);
+    fetch('/data.json') // Adjust the path if the file is in a different directory
+      .then((response) => response.json())
+      .then((jsonData) => {
+        setData(jsonData);
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
   }, []);
 
   return (
     <div>
       <h1>List of Items</h1>
       <ul>
-        {jsonData.map((item, index) => (
+        {data.map((item, index) => (
           <li key={index}>
             {item.name} - {item.number} - {item.specialID}
           </li>
