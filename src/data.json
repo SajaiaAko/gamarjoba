@@ -1,0 +1,13 @@
+[
+    {
+      "name": "Item 1",
+      "number": 123,
+      "specialID": "ABC123"
+    },
+    {
+      "name": "Item 2",
+      "number": 456,
+      "specialID": "DEF456"
+    }
+  ]
+  
