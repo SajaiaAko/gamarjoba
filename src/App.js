@@ -4,7 +4,7 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/data.json') // Adjust the path if the file is in a different directory
+    fetch('https://SajaiaAko.github.io/gamarjoba/data.json'') // Adjust the path if the file is in a different directory
       .then((response) => response.json())
       .then((jsonData) => {
         setData(jsonData);
