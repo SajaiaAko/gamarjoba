@@ -28,7 +28,7 @@ function App() {
       <h1>List of Items</h1>
       <input
         type="text"
-        placeholder="Search by name"
+        placeholder="Search by name..."
         value={searchTerm}
         onChange={handleSearch}
       />
