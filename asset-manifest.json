@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gamarjoba/static/css/main.a0c88fe8.css",
-    "main.js": "/gamarjoba/static/js/main.21cb51d5.js",
+    "main.css": "/gamarjoba/static/css/main.3df014a4.css",
+    "main.js": "/gamarjoba/static/js/main.bbdf667b.js",
     "static/js/787.310b28fc.chunk.js": "/gamarjoba/static/js/787.310b28fc.chunk.js",
     "index.html": "/gamarjoba/index.html",
-    "main.a0c88fe8.css.map": "/gamarjoba/static/css/main.a0c88fe8.css.map",
-    "main.21cb51d5.js.map": "/gamarjoba/static/js/main.21cb51d5.js.map",
+    "main.3df014a4.css.map": "/gamarjoba/static/css/main.3df014a4.css.map",
+    "main.bbdf667b.js.map": "/gamarjoba/static/js/main.bbdf667b.js.map",
     "787.310b28fc.chunk.js.map": "/gamarjoba/static/js/787.310b28fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0c88fe8.css",
-    "static/js/main.21cb51d5.js"
+    "static/css/main.3df014a4.css",
+    "static/js/main.bbdf667b.js"
   ]
 }
