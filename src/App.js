@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 function App() {
   const [data, setData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-
+  
   useEffect(() => {
     fetch('public/data.json') // Adjust the path if the file is in a different directory
       .then((response) => response.json())
